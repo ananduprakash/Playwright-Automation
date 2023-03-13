@@ -12,11 +12,11 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/home/anandu/DotIn/Playwright-Automation/test-results",
+        "outputDir": "/home/dotin/Projects/Playwright-Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "/home/anandu/DotIn/Playwright-Automation",
+        "testDir": "/home/dotin/Projects/Playwright-Automation",
         "testIgnore": [],
         "testMatch": [
           "assertions.spec.ts"
@@ -46,13 +46,13 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "/home/anandu/DotIn/Playwright-Automation/playwright.config.ts",
-    "rootDir": "/home/anandu/DotIn/Playwright-Automation",
+    "configFile": "/home/dotin/Projects/Playwright-Automation/playwright.config.ts",
+    "rootDir": "/home/dotin/Projects/Playwright-Automation",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.31.1",
-    "workers": 1,
+    "version": "1.31.2",
+    "workers": 3,
     "webServer": null
   },
   "suites": [
@@ -76,12 +76,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10303,
+                  "duration": 11304,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-03-10T12:34:05.907Z",
+                  "startTime": "2023-03-13T10:09:42.502Z",
                   "attachments": []
                 }
               ],

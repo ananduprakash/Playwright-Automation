@@ -1,12 +1,12 @@
 
 import { Page } from "@playwright/test";
 
-export default class HomePage{
+export default class HomePage {
 
 
     constructor(public page: Page) { }
 
-    async addFirstProductToTheCart() { 
+    async addFirstProductToTheCart() {
 
         await this.page.locator('#widget-navbar-217834 > ul > li:nth-child(1) > a > div > span').click();
 

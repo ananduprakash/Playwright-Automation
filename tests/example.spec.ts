@@ -3,14 +3,14 @@ import { test, expect } from '@playwright/test';
 let context;
 let page;
 
-test.beforeAll(async ({browser}) => {
-context = await browser.newContext();
-await context.tracing.start({snapshots:true, screenshots:true});
-page = await context.newPage();
+test.beforeAll(async ({ browser }) => {
+  context = await browser.newContext();
+  await context.tracing.start({ snapshots: true, screenshots: true });
+  page = await context.newPage();
 })
 
 test.afterAll(async () => {
-  await context.tracing.stop({path: 'test2_trace.zip'});
+  await context.tracing.stop({ path: 'test2_trace.zip' });
 })
 
 test('has title', async () => {
@@ -22,7 +22,7 @@ test('has title', async () => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 
-  
+
 });
 
 test('get started link', async () => {
